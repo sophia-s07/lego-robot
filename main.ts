@@ -3,4 +3,7 @@ radio.onReceivedNumber(function (receivedNumber) {
         wuKong.setMotorSpeed(wuKong.MotorList.M1, 100)
     }
 })
+input.onButtonPressed(Button.A, function () {
+    wuKong.setMotorSpeed(wuKong.MotorList.M1, 100)
+})
 radio.setGroup(115)
